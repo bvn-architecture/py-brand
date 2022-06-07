@@ -5,3 +5,4 @@ pytest
 wheel
 build
 twine
+flit
