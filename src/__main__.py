@@ -1,3 +1,6 @@
+from colours import bvn_brand_colours
+
+
 def say_hi():
     print(
         """
@@ -10,6 +13,8 @@ def say_hi():
        Brand colours, for now.
     """
     )
+    for name, hex in bvn_brand_colours.items():
+        print(f"{name}: {hex}")
 
 
 if __name__ == "__main__":
