@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BVN-Branding"
+version = "0.0.1"
+description = "A simple package that has the BVN brand colours"
+readme = "README.md"
+authors = [{ name = "Ben Doherty", email = "ben_doherty@bvn.com.au" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["colour", "BVN", "branding"]
+dependencies = []
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/bvn-architecture/py-brand"
+
+[project.scripts]
+realpython = "reader.__main__:main"
