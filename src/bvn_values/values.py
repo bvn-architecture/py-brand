@@ -1,7 +1,7 @@
 company_name = "BVN"
 
 
-def get_bvn_brand_colours():
+def get_bvn_brand_colours() -> dict[str, str]:
     return {
         "white": "#fff",
         "gray-light": "#f2f2f2",
