@@ -1,5 +1,7 @@
 # BVN Values
 
+[![PyPI version](https://badge.fury.io/py/bvn_values.svg)](https://badge.fury.io/py/bvn_values)
+
 This is a _super_ simple package that contains the specific colours and words. 
 
 ## installation
