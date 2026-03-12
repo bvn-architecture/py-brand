@@ -85,16 +85,3 @@ python -m bvn_values
 1. Commit and push
 1. Create a git tag: `git tag v0.2.0 && git push origin v0.2.0`
 1. The GitHub Action will build and publish to PyPI automatically
-
-### First-time PyPI setup
-
-This package uses [Trusted Publishers](https://docs.pypi.org/trusted-publishers/) for PyPI authentication (no API tokens needed).
-
-A repository maintainer needs to configure the publisher on PyPI once:
-
-1. Go to the [bvn_values publishing settings on PyPI](https://pypi.org/manage/project/bvn_values/settings/publishing/)
-2. Add a new publisher with:
-   - Owner: `bvn-architecture`
-   - Repository: `py-brand`
-   - Workflow: `publish.yml`
-   - Environment: `pypi`
