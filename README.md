@@ -56,6 +56,20 @@ html = get_studio_html("sydney")
 print(html)
 ```
 
+Which gives:
+
+```html
+<address>
+  <strong>BVN Sydney</strong><br>
+  Level 11<br>
+  255 Pitt Street<br>
+  Sydney NSW 2000<br>
+  Australia<br>
+  <a href="tel:+61282977200">+61 2 8297 7200</a><br>
+  <a href="mailto:sydney@bvn.com.au">sydney@bvn.com.au</a>
+</address>
+```
+
 Available studios: `brisbane`, `sydney`, `london`, `new_york`.
 
 ## CLI
