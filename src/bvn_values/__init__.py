@@ -1,5 +1,5 @@
-"""BVN specific values and functions and things."""
-__version__ = "0.1.1"
+"""BVN brand values: colours, studio addresses, and company information."""
+__version__ = "0.2.0"
 
-# importing these here makes them avaliable to the dir command
-from .values import get_bvn_brand_colours, company_name
+from .values import company_name, website_url, abn, acn, social_media, get_brand_colours
+from .studios import studios, get_studio_html
