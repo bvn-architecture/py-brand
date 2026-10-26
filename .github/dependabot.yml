@@ -1,0 +1,25 @@
+# Written by machine-config/repo-tools/dependabot.py. Patch and minor bumps are
+# grouped into one weekly PR per ecosystem and merged automatically once checks pass;
+# major bumps arrive as separate PRs for a human to review.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directories:
+      - "/"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
+  - package-ecosystem: "pip"
+    directories:
+      - "/"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]
